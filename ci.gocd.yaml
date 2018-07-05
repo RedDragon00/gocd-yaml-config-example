@@ -4,6 +4,9 @@ environments:
       EXAMPLE_DEPLOYMENT: testing
     pipelines:
       - yaml-example
+  development:
+    pipelines:
+      - yamlpipe1
 pipelines:
   yamlpipe1:
     group: simple
